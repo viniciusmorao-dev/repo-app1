@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>DevOps Deploy</title>
+  <title>Deploy DevOps</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -10,22 +10,32 @@
 
   <div class="background"></div>
 
-  <header>
-    <h1>DevOps Pipeline</h1>
+  <header class="header">
+    <h1>Deploy Automatizado</h1>
+    <p>Pipeline CI/CD com Docker e GitHub Actions</p>
   </header>
 
-  <main>
+  <main class="container">
     <div class="card">
-      <h2>Deploy realizado com sucesso</h2>
-      <p>A aplicação foi enviada automaticamente para o Docker Hub.</p>
+      <div class="status">
+        <span class="dot"></span>
+        <span>Deploy concluído</span>
+      </div>
 
-      <button onclick="handleClick()">Testar interação</button>
+      <h2>Aplicação está no ar</h2>
+
+      <p>
+        A imagem Docker foi buildada e enviada com sucesso.
+        Sua pipeline está funcionando corretamente.
+      </p>
+
+      <button onclick="handleClick()">Verificar pipeline</button>
     </div>
   </main>
 
   <script>
     function handleClick() {
-      alert("Pipeline funcionando perfeitamente!");
+      alert("Tudo certo! Pipeline rodando liso.");
     }
   </script>
 

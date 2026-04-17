@@ -9,5 +9,5 @@ jobs:
   deploy:
     uses: viniciusmorao-dev/pipeline-devops/.github/workflows/pipeline.yaml@main
     secrets:
-      DOCKERHUB_USER: ${{ vars.DOCKERHUB_USERNAME }}
+      DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
       DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}

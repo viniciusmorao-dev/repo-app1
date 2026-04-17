@@ -1,11 +1,9 @@
-/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fundo com gradiente animado */
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
@@ -29,7 +27,6 @@ body {
   100% { background-position: 0% 50%; }
 }
 
-/* Header */
 header {
   text-align: center;
   padding: 40px 20px 10px;
@@ -44,7 +41,6 @@ header p {
   margin-top: 10px;
 }
 
-/* Main */
 main {
   display: flex;
   justify-content: center;
@@ -52,7 +48,6 @@ main {
   height: 60%;
 }
 
-/* Card estilo glass */
 .card {
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(15px);
@@ -78,7 +73,6 @@ main {
   margin-bottom: 25px;
 }
 
-/* Botão moderno */
 button {
   background: linear-gradient(135deg, #38bdf8, #0ea5e9);
   border: none;
@@ -95,7 +89,6 @@ button:hover {
   box-shadow: 0 0 15px rgba(56,189,248,0.6);
 }
 
-/* Footer */
 footer {
   text-align: center;
   font-size: 0.8rem;
